@@ -1,0 +1,26 @@
+/* New class to center the box content */
+.centered-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Ensure the box takes up the full column height */
+    justify-content: space-between; /* To evenly distribute the remaining space */
+}
+
+/* Adjusting the spacing around the boxes */
+.box.style2 {
+    margin: 10px; /* You adjust this value as needed */
+}
+
+/* Ensure images fit within the box */
+.image-container {
+    max-width: 100%; /* Limit the width of the image container */
+    overflow: hidden; /* Hide any overflow of the image */
+}
+
+/* Style adjustments for the images */
+.image-container img {
+    width: 100%; /* Make the image fit the container width */
+    height: auto; /* Maintain the aspect ratio */
+}
